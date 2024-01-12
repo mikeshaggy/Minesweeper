@@ -77,6 +77,7 @@ function clickTile(event) {
         } else {
             tile.classList.remove("flagged");
             tile.innerHTML = '';
+            minesCount++;
         }
         document.getElementById("minesCount").innerText = minesCount;
     } else {
