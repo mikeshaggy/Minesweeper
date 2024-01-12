@@ -69,8 +69,8 @@ function clickTile(event) {
             let flagImage = new Image();
             flagImage.src = "../images/flag.png";
             flagImage.alt = "Flag";
-            flagImage.style.width = "50px";  // Dostosuj rozmiar flagi
-            flagImage.style.height = "50px"; // Dostosuj rozmiar flagi
+            flagImage.style.width = "50px";
+            flagImage.style.height = "50px";
             tile.innerHTML = '';
             tile.appendChild(flagImage);
             minesCount--;
