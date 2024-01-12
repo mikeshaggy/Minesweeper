@@ -1,0 +1,52 @@
+body {
+    background-image: url("images/homePageBackground.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.title {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rules {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.rules h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.buttonsDescription {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.buttons {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons button {
+    margin: 30px;
+    width: 200px;
+    height: 100px;
+
+    font-size: 25px;
+    font-family: 'JetBrains Mono', monospace;
+}
